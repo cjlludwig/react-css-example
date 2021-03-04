@@ -1,0 +1,19 @@
+main {
+  margin-top: 0;
+  margin-bottom: 64;
+  padding-right: '10%'; 
+  padding-left: '10%';
+}
+
+code {
+  color: "#8A6534";
+  padding: 4;
+  background-color: "#FFF4DB";
+  font-size: "1.25rem";
+  border-radius: 4;
+}
+
+.sub-title {
+  font-size: "70%";
+  color: "green";
+} 
