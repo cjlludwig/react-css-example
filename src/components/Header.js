@@ -1,27 +1,25 @@
 import { Nav, Navbar } from 'react-bootstrap';
 import React from 'react';
-import '../../static/components/header.css'
+import { IoIosHome } from "react-icons/io";
 
-export default function Header() {
+export default function Header({ fontColor, className = 'navbar', style = {} }) {
+  const color =  { color: fontColor };
   return (
     <Navbar 
-      // bg='light' 
-      // variant='light'
-      className='navbar'
+      className={className}
+      style={style}
     >
-      <Navbar.Brand href="#home">
-        {/* <img
-          src={require("../images/gavel.png")}
-          width="30"
-          height="30"
-        /> */}
+      <Navbar.Brand href="/">
+        <IoIosHome 
+          color={fontColor}
+        />
       </Navbar.Brand>
       <Nav>
-        <Nav.Link className='nav-link' href="/">Home</Nav.Link>
-        <Nav.Link className='nav-link' href="/inline">Inline CSS</Nav.Link>
-        <Nav.Link className='nav-link' href="/object">Js Object</Nav.Link>
-        <Nav.Link className='nav-link' href="/hybrid">Hybrid</Nav.Link>
-        <Nav.Link className='nav-link' href="/css">Pure CSS</Nav.Link>
+        <Nav.Link style={color} href="/">Global</Nav.Link>
+        <Nav.Link style={color} href="/css">Pure CSS</Nav.Link>
+        <Nav.Link style={color} href="/hybrid">Hybrid</Nav.Link>
+        <Nav.Link style={color} href="/inline">Inline CSS</Nav.Link>
+        <Nav.Link style={color} href="/object">Js Object</Nav.Link>
       </Nav>
     </Navbar>
   )

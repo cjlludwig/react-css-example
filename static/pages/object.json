@@ -1,0 +1,73 @@
+{
+  "imgBase": {
+    "position": "relative",
+    "backgroundAttachment": "fixed",
+    "backgroundPosition": "center",
+    "backgroundRepeat": "no-repeat",
+    "backgroundSize": "cover"
+  },
+  "img1": {
+  },
+  "img2": {
+    "backgroundColor": "#d62828",
+    "minHeight": "800px"
+  },
+  "img3": {
+    "backgroundColor": "#f77f00",
+    "minHeight": "800px"
+  },
+  "img4": {
+    "backgroundColor": "#fcbf49",
+    "minHeight": "800px"
+  },
+  "img5": {
+    "backgroundColor": "#eae2b7",
+    "minHeight": "800px"
+  },
+  "img6": {
+    "backgroundColor": "#003049",
+    "minHeight": "100px"
+  },
+  "main": {
+    "fontFamily": "Verdana, Geneva, Tahoma, sans-serif"
+  },
+  "subTitle": {
+    "color": "#d62828"
+  },
+  "navbar": {
+    "border": "15px solid #003049",
+    "backgroundColor": "#003049"
+  },
+  "title": {
+    "color":"whitesmoke"
+  },
+  "h2": {
+    "color":"whitesmoke"
+  },
+  "code": {
+    "color": "navy"
+  },
+  "section1": {
+    "color": "#777",
+    "backgroundColor": "white",
+    "textAlign": "center",
+    "padding": "50px 80px", 
+    "fontSize": "1.5rem"
+  },
+  "benefits": {
+    "fontFamily":"serif",
+    "marginBottom":"48",
+    "top": "30%",
+    "marginLeft": "10%",
+    "marginRight": "10%",
+    "fontSize":"x-large",
+    "color": "whitesmoke"
+  },
+  "section2": {
+    "top": "30%",
+    "marginLeft": "10%",
+    "marginRight": "10%",
+    "fontSize":"x-large",
+    "color": "whitesmoke"
+  }
+}

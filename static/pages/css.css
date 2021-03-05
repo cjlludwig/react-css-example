@@ -1,19 +1,93 @@
-main {
-  margin-top: 0;
-  margin-bottom: 64;
-  padding-right: '10%'; 
-  padding-left: '10%';
+.css-img-1, .css-img-2, .css-img-3, .css-img-4, .css-img-5 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-code {
-  color: "#8A6534";
-  padding: 4;
-  background-color: "#FFF4DB";
-  font-size: "1.25rem";
-  border-radius: 4;
+.css-img-1 {
+  background-image: url("../images/mountain.jpg");
+  min-height: 800px;
 }
 
-.sub-title {
-  font-size: "70%";
-  color: "green";
+.css-img-2 {
+  background-color: #cb997e;
+  min-height: 800px;
+}
+
+.css-img-3 {
+  background-color: #ddbea9;
+  min-height: 800px;
+}
+
+.css-img-4 {
+  background-color: #b7b7a4;
+  min-height: 800px;
+}
+
+.css-img-5 {
+  background-color: #a5a58d;
+  min-height: 800px;
+}
+
+.css-img-6 {
+  background-color: #6b705c;
+  min-height: 100px;
+}
+
+.css-main {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.css-sub-title {
+  color: #9F3629;
 } 
+
+.css-navbar {
+  border: 15px solid rgb(41, 41, 41);
+  background-color:rgb(41, 41, 41);
+}
+
+.css-title {
+  color:#9F3629
+}
+
+.css-h2 {
+  color:whitesmoke;
+}
+
+.css-code {
+  color:rgb(1, 62, 112);
+}
+
+.css-section-1 {
+  color: #777;
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+  font-size: 1.5rem;
+}
+.css-benefits {
+  font-family:serif;
+  margin-bottom:48;
+  position: absolute; 
+  top: 30%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: x-large;
+  color: whitesmoke;
+}
+
+.css-downsides {
+  font-family:serif;
+  margin-bottom:48;
+  position: absolute; 
+  top: 30%;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: whitesmoke;
+  font-size: x-large;
+}
+

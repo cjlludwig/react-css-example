@@ -7,7 +7,7 @@
     "gatsby"
   ],
   "scripts": {
-    "start": "gatsby develop -p 3000 -o",
+    "develop": "gatsby develop -p 3000 -o",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
@@ -20,7 +20,11 @@
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.3",
     "react-dom": "^17.0.1",
+    "react-icons": "^4.2.0",
     "react-scripts": "3.4.3",
     "web-vitals": "^0.2.4"
+  },
+  "devDependencies": {
+    "babel-preset-gatsby": "^1.0.0"
   }
 }
